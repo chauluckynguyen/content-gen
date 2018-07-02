@@ -1,0 +1,32 @@
+{
+  "name": "Name Generator",
+  "description": "Name Generator enables you to quickly create dummy data for names.",
+  "author": "Lucky Nguyen",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "NeutralNames.js",
+      "handler": "onRun",
+      "shortcut": "",
+      "name": "Persona Names",
+      "identifier": "names"
+    },
+    {
+      "script": "ProgressStates.js",
+      "handler": "onRun",
+      "shortcut": "",
+      "name": "Progress States",
+      "identifier": "progress-states"
+    }
+  ],
+  "menu": {
+    "items": [
+      "names",
+      "progress-states"
+    ]
+  },
+  "version": "0.1.0",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}

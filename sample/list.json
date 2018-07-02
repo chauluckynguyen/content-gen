@@ -1,0 +1,20 @@
+{
+	"list": [
+		{
+			"id": "0",
+			"label": "Item One"
+		},
+		{
+			"id": "1",
+			"label": "Item Two"
+		},
+		{
+			"id": "2",
+			"label": "Item Three"
+		},
+		{
+			"id": "3",
+			"label": "Item Four"
+		}
+	]
+}

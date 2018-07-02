@@ -1,0 +1,29 @@
+{
+	"author": "Lucky Nguyen <luckyknguyen@gmail.com>",
+	"devDependencies": {
+		"@skpm/builder": "^0.5.2"
+	},
+	"engines": {
+		"sketch": ">=3.0"
+	},
+	"license": "MIT",
+	"readme": "./README.md",
+	"scripts": {
+		"build": "skpm-build",
+		"watch": "skpm-build --watch",
+		"start": "skpm-build --watch --run",
+		"postinstall": "npm run build && skpm-link"
+	},
+	"skpm": {
+		"name": "content-gen",
+		"manifest": "src/manifest.json",
+		"main": "content-gen.sketchplugin",
+		"assets": [
+			"assets/**/*"
+		]
+	},
+	"version": "0.1.0",
+	"dependencies": {
+		"sketch-polyfill-fetch": "^0.3.3"
+	}
+}

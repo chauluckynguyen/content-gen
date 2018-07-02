@@ -1,0 +1,29 @@
+{
+	"name": "Content Gen",
+	"description": "Content Gen enables you to quickly generate dummy data.",
+	"author": "Lucky Nguyen",
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+		{
+			"script": "Persona/Names.js",
+			"handler": "onRun",
+			"shortcut": "",
+			"name": "Persona Names",
+			"identifier": "names"
+		},
+		{
+			"script": "Text/ProgressStates.js",
+			"handler": "onRun",
+			"shortcut": "",
+			"name": "Progress States",
+			"identifier": "progress-states"
+		}
+	],
+	"menu": {
+		"items": [
+			"names",
+			"progress-states"
+		]
+	}
+}
