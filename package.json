@@ -22,6 +22,10 @@
 			"assets/**/*"
 		]
 	},
+	"repository" : {
+		"type": "git",
+		"url": "git+https://github.com/chauluckynguyen/content-gen"
+	}
 	"version": "0.1.0",
 	"dependencies": {
 		"sketch-polyfill-fetch": "^0.3.3"
